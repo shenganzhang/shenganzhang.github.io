@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Yiming Shi
-email: syiming@umich.edu
-description: Computer Science Engineering, Class of 2020
-url: https://syiming.github.io
-keywords: ["Yiming", "Shi"]
+title: Shengan Zhang
+email: zshengan@umich.edu
+description: Computer Science, Class of 2021
+url: https://shenganzhang.github.io
+keywords: ["Sheng'an", "Zhang", "Shengan"]
 
 #
 ###################################
@@ -32,11 +32,11 @@ kramdown:
 ####################################
 #
 owner:
-  name: "Yiming Shi"
+  name: "Shengan Zhang"
   avatar: logo.png
-  job: "Computer Science Engineering, Class of 2020"
-  bio: "University of Michigan, Ann Arbor"
-  email: syiming@umich.edu
+  job: "Computer Science, Class of 2021"
+  bio: "College of Engineering, University of Michigan, Ann Arbor"
+  email: zshengan@umich.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
@@ -47,13 +47,13 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: syiming
+  github: shenganzhang
   gitlab:
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   skype: #username
   xing: #username
-  instagram: delight11m
+  instagram: #username
   lastfm: #username
   tumblr: #username
   pinterest: #username
