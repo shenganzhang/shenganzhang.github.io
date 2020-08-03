@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Motivation, SQL, C, C++, Matlab, Python
+percentage: 10, 7, 8, 9, 7, 8

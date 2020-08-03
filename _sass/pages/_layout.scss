@@ -1,0 +1,112 @@
+/* LAYOUT CSS */
+.cover {
+  background-color: $background-color;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  min-height: 400px;
+  padding: 30px 15px 20px;
+  z-index: 1;
+  @include media-query($small-screen) {
+    background-position: center;
+    padding: 30px;
+  }
+  @include media-query($medium-screen) {
+    height: 100vh;
+    position: initial;
+    width: 100%;
+  }
+}
+.cover-card {
+  color: $text-color;
+  padding: 0 40px;
+  .avatar {
+    border-radius: 75%;
+    width: 150px;
+    height: 150px;
+    float: none;
+    @include media-query($medium-screen) {
+      margin-right: 0;
+    }
+  }
+  .author_name {
+    display: block;
+    color: #F36170;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin: 5px auto 5px;
+  }
+  .author_job {
+    display: block;
+    color: $secondary;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: -5px auto 5px;
+  }
+  .author_bio {
+    font-size: 90%;
+    display: block;
+  }
+  @include media-query($medium-screen) {
+    text-align: right;
+    margin: 0 auto;
+    padding: 0 0px 80px;
+  }
+}
+.social-links {
+  margin-top: 1.5em;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      margin-left: 1em;
+      a.social-link-item {
+        color: $secondary;
+        &:hover,
+        &:focus {
+          color: lighten($secondary, 14%);
+        }
+      }
+    }
+  }
+}
+.nav-list {
+  margin-top: 4em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    .nav-item {
+      zoom: 1;
+      & a {
+        margin-top: 1em;
+        text-transform: uppercase;
+        font-size: 100%;
+        @include media-query($small-screen) {
+          display: inline-block;
+          *display: inline;
+          & a:after {
+            content: '/';
+          }
+          & a:last-child:after {
+            content: '';
+          }
+        }
+        @include media-query($medium-screen) {
+          display: block;
+        }
+        @include media-query($large-screen) {
+          display: block;
+        }
+        @include media-query($larger-screen) {
+          display: block;
+        }
+        color: $secondary;
+        &:hover,
+        &:focus {
+          color: lighten($secondary, 14%);
+        }
+      }
+    }
+}

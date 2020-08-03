@@ -1,0 +1,19 @@
+<br> </br>
+<div class="navy-line"></div>
+<h1 id="Education"><span data-i18n="skills.my_skills">Education</span></h1>
+
+<div class="archive">
+  <div class="timeline" id="timeline">
+     {% for career in site.data.index.education %}
+      <div class="archive-title">
+        <h5 class="archive-year bio"><a href="{{ career.link }}">{{ career.name }}</a><i><span style="float:right;">{{ career.date }}</span></i></h5>
+      </div>
+      <ul>
+        <p></p>
+        <div><i>{{ career.descr }}</i></div>
+        <div><div>Coursework:</div>{{ career.course }}</div>
+      </ul>
+      {% endfor %}
+  </div>
+
+</div>
