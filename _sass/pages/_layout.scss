@@ -31,21 +31,24 @@
   }
   .author_name {
     display: block;
-    color: #F36170;
+    color: #000000;
     font-size: 2em;
     text-transform: uppercase;
     margin: 5px auto 5px;
   }
   .author_job {
     display: block;
-    color: $secondary;
+    color: #000000;
     font-size: 0.9em;
     font-weight: 700;
     margin: -5px auto 5px;
   }
   .author_bio {
-    font-size: 90%;
     display: block;
+    color: #000000;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: -5px auto 5px;
   }
   @include media-query($medium-screen) {
     text-align: right;
