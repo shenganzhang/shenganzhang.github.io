@@ -9,37 +9,37 @@
   font-size: 0.875em;
   font-family: $font-family-base;
   font-weight: 700;
-  background-color: $primary;
+  background-color: $info;
   color: $white;
   border-width: 2px !important;
   border-style: solid !important;
-  border-color: $primary;
+  border-color: $info;
   text-decoration: none !important;
   border-radius: 5px;
   &:visited {
     color: $white;
-    border-color: $primary;
+    border-color: $info;
   }
   &:hover {
     background-color: $white;
-    color: $primary;
-    border-color: $primary;
+    color: $info;
+    border-color: $info;
   }
 }
 
 // Success button
 .btn-success {
-  background-color: $success;
+  background-color: $info;
   color: $white;
-  border-color: $success;
+  border-color: $info;
   &:visited {
     color: $white;
-    border-color: $success;
+    border-color: $info;
   }
   &:hover {
     background-color: $white;
-    color: $success;
-    border-color: $success;
+    color: $info;
+    border-color: $info;
   }
 }
 
