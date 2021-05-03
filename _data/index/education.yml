@@ -1,15 +1,15 @@
 - name: University of Michigan (UM)
   degree: B.S.E. in Computer Science, Minor in Mathematics
   link: https://umich.edu
-  date: Expected May 2021
+  date: September 2019 – May 2021
   descr: College of Engineering (CoE)
-  GPA: 3.967 / 4.00
-  course: Computer Vision, Deep Learning for Computer Vision, Intro to Machine Learning, Intro to Operating Systems, Data Structures & Algorithms etc
+  GPA: 3.977 / 4.00
+  course: Web Systems, Natural Language Processing, Computer Vision, Machine Learning, Operating Systems, Data Structures & Algorithms etc
 
 - name: Shanghai Jiao Tong University (SJTU)
   degree: B.S. in Electrical and Computer Engineering
   link: http://www.sjtu.edu.cn
-  date: Expected Aug. 2021
+  date: September 2019 – August 2021 (Expected)
   descr: University of Michigan - Shanghai Jiao Tong University Joint Institute (UM - SJTU JI)
   GPA: 3.712 / 4.00
-  course: Intro to Algorithms, Programming & Elementary Data Structures, Discrete Mathematics, Intro to Logic Design etc
+  course: Algorithms, Programming & Elementary Data Structures, Discrete Mathematics, Logic Design etc
